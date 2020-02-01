@@ -1,0 +1,19 @@
+{
+	"id_user": 1,
+	"nama": "Muhammad Wildan Aldiansyah",
+	"alamat": "Jalan Sanan No 61 Balearjosari Blimbing",
+	"ongkos": 0,
+	"tanggal": "2019-03-30",
+	"pesan": [{
+		"id_layanan": 1,
+		"nama": "Standard Clean",
+		"harga": 40000
+	}, {
+		"id_layanan": 2,
+		"nama": "Deep Clean",
+		"harga": 60000
+	}],
+	"layananTotal": 100000,
+	"total": 100000,
+	"invoiceNumber": 10300314
+}

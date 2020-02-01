@@ -1,0 +1,2603 @@
+.jumbotron {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../image/jumbotron.jpg);
+
+}
+
+@font-face {
+	font-family: "nexabold";
+	src: url("../font/Nexa Bold.otf")format("opentype");
+}
+
+@font-face {
+
+	font-family: "nexalight";
+	src: url("../font/Nexa Light.otf") format("opentype");
+}
+
+.gapunyaakun {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15pt;
+	color: white;
+	align: center;
+	position: absolute;
+	top: 896px;
+	left: 807px
+}
+
+.punyaakun {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15pt;
+	color: white;
+	align: center;
+	position: absolute;
+	top: 920px;
+	left: 817px;
+}
+
+.logologin {
+	position: absolute;
+	top: 66px;
+	left: 823px;
+}
+
+.userlogin {
+	position: absolute;
+	top: 255px;
+	left: 845px;
+}
+
+.boxusernamelogin {
+	position: absolute;
+	top: 514px;
+	left: 700px;
+}
+
+.usernamelogin {
+	position: absolute;
+	top: 520px;
+	left: 780px;
+}
+
+.boxpasslogin {
+	position: absolute;
+	top: 608px;
+	left: 700px;
+}
+
+.passlogin {
+	position: absolute;
+	top: 614px;
+	left: 780px;
+}
+
+.boxlogin {
+	position: absolute;
+	top: 697px;
+	left: 825px;
+}
+
+.logodaftar {
+	position: absolute;
+	top: 42px;
+	left: 821px;
+	width: 274px;
+	height: 153px;
+}
+
+.boxemaildaftar {
+	position: absolute;
+	top: 164px;
+	left: 700px;
+}
+
+.emaildaftar {
+	position: absolute;
+	top: 70px;
+	left: 780px;
+}
+
+.boxusernamedaftar {
+	position: absolute;
+	top: 253px;
+	left: 700px;
+}
+
+.usernamedaftar {
+	position: absolute;
+	top: 259px;
+	left: 780px;
+}
+
+.boxpassdaftar {
+	position: absolute;
+	top: 347px;
+	left: 700px;
+}
+
+.passdaftar {
+	position: absolute;
+	top: 353px;
+	left: 780px;
+}
+
+.boxpassdaftar2 {
+	position: absolute;
+	top: 441px;
+	left: 700px;
+}
+
+.passdaftar2 {
+	position: absolute;
+	top: 447px;
+	left: 780px;
+}
+
+.boxalamatdaftar {
+	position: absolute;
+	top: 530px;
+	left: 700px;
+}
+
+.alamatdaftar {
+	position: absolute;
+	top: 536px;
+	left: 780px;
+}
+
+.boxcamatdaftar {
+	position: absolute;
+	top: 688px;
+	left: 700px;
+}
+
+.camatdaftar {
+	position: absolute;
+	top: 700px;
+	left: 710px;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxdaftar {
+	position: absolute;
+	top: 824px;
+	left: 824px;
+}
+
+.jumbotron input[type="text"] {
+	border: none;
+	background: transparent;
+	font-size: 25pt;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	outline: none;
+	width: 425px;
+	height: 45px
+}
+
+.jumbotron input[type="password"] {
+	border: none;
+	background: transparent;
+	font-size: 25pt;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	outline: none;
+	width: 425px;
+	height: 45px
+}
+
+.jumbotron input[type="submit"] {
+	background-color: #33b3ca;
+	height: 83px;
+	width: 273px;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 30pt;
+	border: none;
+	color: white;
+}
+
+.jumbotron input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #3ddaf2;
+}
+
+.daerah {
+	border: solid 3px black;
+	border-radius: 12px;
+	position: absolute;
+	left: 700px;
+	top: 619px;
+}
+
+.daerah select {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	border-radius: 7px;
+	width: 512px;
+	height: 57px;
+	outline: none;
+	font-size: 25pt;
+	-webkit-appearance: none;
+	background-image: url(../image/triangle.png);
+	background-position:
+		calc(100% - -1px) calc(1em + -34px),
+		100% 0;
+	background-size: 60px 60px;
+	background-repeat: no-repeat;
+}
+
+.navbar {
+	width: 100%;
+	height: 90px;
+	background: #ed9101;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.navbar button {
+	border: none;
+	outline: none;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25px;
+	background: none;
+	color: white;
+}
+
+.logonavbar {
+	position: absolute;
+	left: 835px;
+	top: 10px;
+}
+
+.pelayanannavbar {
+	position: absolute;
+	left: 200px;
+	top: 27px;
+}
+
+.pesanannavbar {
+	position: absolute;
+	left: 500px;
+	top: 27px;
+}
+
+.aboutnavbar {
+	position: absolute;
+	left: 1300px;
+	top: 27px;
+}
+
+.loginnavbar {
+	position: absolute;
+	left: 1600px;
+	top: 27px;
+}
+
+.usernavbar {
+	position: absolute;
+	left: 1600px;
+	top: 22px;
+	width: 40px;
+	height: 40px;
+}
+
+.dashboardlayout {
+	width: 100%;
+	margin: 0 auto;
+	height: 1080px;
+	background-image: url("../image/jumbotrondashboard.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.dashboardlayout p {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	font-size: 50pt;
+	position: absolute;
+	left: 500px;
+	top: 510px;
+}
+
+.dashboardlayout input[type="submit"] {
+	background-color: #33b3ca;
+	height: 83px;
+	width: 273px;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+	border: none;
+	color: white;
+	position: absolute;
+	top: 610px;
+	left: 810px;
+}
+
+.dashboardlayout input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #3ddaf2;
+	border: none;
+	outline: none;
+}
+
+.dashboardlayout2 {
+	background-color: #feb33e;
+	width: 100%;
+	height: 920px;
+}
+
+.about {
+	position: absolute;
+	left: 210px;
+	top: 1250px;
+	width: 1500px;
+	height: 508px;
+}
+
+.layanan {
+	position: absolute;
+	width: 1500px;
+	height: 713px;
+	left: 210px;
+	top: 2100px;
+}
+
+.dashboardlayout3 {
+	background-color: white;
+	width: 100%;
+	height: 920px;
+}
+
+.dashboardlayout4 {
+	background-color: #252424;
+	width: 100%;
+	height: 960px;
+}
+
+.qnacekpesan {
+	position: absolute;
+	top: 3150px;
+	left: 100px;
+}
+
+.boxnopesan {
+	position: absolute;
+	top: 3150px;
+	left: 1100px;
+}
+
+.dashboardlayout4 input[type="text"] {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	font-size: 20pt;
+	border: none;
+	outline: none;
+	width: 660px;
+	position: absolute;
+	top: 3160px;
+	left: 1110px;
+}
+
+.dashboardlayout4 input[type="submit"] {
+	background-color: #ca3434;
+	height: 83px;
+	width: 273px;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+	border: none;
+	color: white;
+	position: absolute;
+	top: 3250px;
+	left: 1100px;
+}
+
+.dashboardlayout4 input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #f84141;
+	border: none;
+	outline: none;
+}
+
+.dashboardlayout4 a {
+	background-color: #1c1b1b;
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	top: 3765px;
+}
+
+.dashboardlayout4 p {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	color: #393939;
+	font-size: 15pt;
+	position: absolute;
+	top: 3780px;
+	left: 750px;
+}
+
+body,
+html {
+	height: 100%;
+	background-color: #252424;
+	width: 100%;
+	position: relative;
+}
+
+.sitecontent {
+	min-height: 100%;
+}
+
+.pesananlayout {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.pesananlayout p {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	font-size: 30pt;
+	position: absolute;
+	top: 200px;
+	left: 800px;
+}
+
+.carapesan {
+	position: absolute;
+	top: 250px;
+	left: 300px;
+}
+
+.jumlahpesanan {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	font-size: 25pt;
+	position: absolute;
+	top: 100vh;
+	left: 200px;
+}
+
+.boxjumlahsepatu {
+	position: absolute;
+	top: 104.3vh;
+	left: 200px;
+}
+
+.pesananlayout2 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.pesananlayout2 input[type="number"] {
+	background: none;
+	border: none;
+	outline: none;
+	position: absolute;
+	left: 210px;
+	top: 104.7vh;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	font-size: 20pt;
+}
+
+.pesananlayout2 input[type="submit"] {
+	background: url(../image/submitjumlah.png);
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	left: 527px;
+	top: 104.5vh;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.pesananlayout2 input[type="submit"]:hover {
+	background: url(../image/submitjumlahhover.png);
+	cursor: pointer;
+}
+
+.jenispelayanan {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	font-size: 23pt;
+	position: absolute;
+	top: 1150px;
+	left: 200px;
+}
+
+.layanansepatu {
+	border: solid 3px black;
+	border-radius: 9px;
+	position: absolute;
+	left: 570px;
+	top: 1135px;
+	width: 400px;
+	height: 46px;
+}
+
+.layanansepatu select {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	border-radius: 7px;
+	width: 393px;
+	height: 39px;
+	outline: none;
+	font-size: 25pt;
+	-webkit-appearance: none;
+	background-image: url(../image/triangle.png);
+	background-position:
+		calc(100% - -1px) calc(1em + -34px),
+		100% 0;
+	background-size: 42px 42px;
+	background-repeat: no-repeat;
+}
+
+.hargaperpelayanan {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25pt;
+	position: absolute;
+	top: 0;
+	left: 430px;
+	width: 500px;
+	color: white;
+	height: 100%;
+}
+
+.boxpesan {
+	background-color: #33b3ca;
+	height: 83px;
+	width: 273px;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+	border: none;
+	color: white;
+	position: absolute;
+	bottom: -80%;
+	left: 1500px;
+}
+
+.boxpesan:hover {
+	cursor: pointer;
+	background-color: #3ddaf2;
+}
+
+.footer {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	bottom: -100%;
+	background-color: #252424;
+	color: #393939;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15pt;
+}
+
+.footer a {
+	background-color: #1c1b1b;
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	bottom: 90px;
+}
+
+.footer p {
+	text-align: center;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.content {
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.cekpesananlayout {
+	width: 100%;
+	min-height: 100%;
+	background-color: #252424;
+}
+
+.bon {
+	position: absolute;
+	left: 535px;
+	top: 300px;
+	width: 850px;
+	height: 450px;
+}
+
+.totalbon {
+	position: absolute;
+	left: 540px;
+	top: 350px;
+	height: 100%;
+}
+
+.totalbon p {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+}
+
+.pesananmu {
+	font-size: 30pt;
+	position: absolute;
+	left: 280px;
+}
+
+.garisbon1 {
+	position: absolute;
+	width: 810px;
+	background-color: black;
+	height: 4px;
+	top: 50px;
+	left: 6px;
+	border-radius: 10px;
+}
+
+.banyaknyajenislayanan {
+	font-size: 20pt;
+	position: absolute;
+	left: 30px;
+	top: 70px;
+}
+
+.jenislayanan {
+	font-size: 20pt;
+	position: absolute;
+	left: 60px;
+	top: 70px;
+	width: 200px;
+}
+
+.hargalayanan {
+	font-size: 20pt;
+	position: absolute;
+	left: 630px;
+	top: 70px;
+	width: 200px;
+}
+
+.garisbon2 {
+	position: absolute;
+	width: 810px;
+	background-color: black;
+	height: 4px;
+	top: 110px;
+	left: 6px;
+	border-radius: 10px;
+}
+
+.ongkir {
+	font-size: 20pt;
+	position: absolute;
+	left: 200px;
+	top: 130px;
+	width: 500px;
+}
+
+.hargaongkir {
+	font-size: 20pt;
+	position: absolute;
+	left: 630px;
+	top: 130px;
+	width: 200px;
+}
+
+.total {
+	font-size: 20pt;
+	position: absolute;
+	left: 500px;
+	top: 180px;
+	width: 200px;
+}
+
+.hargatotal {
+	font-size: 20pt;
+	position: absolute;
+	left: 630px;
+	top: 180px;
+	width: 200px;
+}
+
+.nopesan {
+	font-size: 20pt;
+	position: absolute;
+	left: 30px;
+	top: 230px;
+	width: 400px;
+}
+
+.noinvoice {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+	position: absolute;
+	left: 30px;
+	top: 260px;
+	width: 200px;
+	color: #ca3434;
+}
+
+.statuspesan {
+	font-size: 20pt;
+	position: absolute;
+	left: 30px;
+	top: 290px;
+	width: 400px;
+}
+
+.status {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+	position: absolute;
+	left: 30px;
+	top: 320px;
+	width: 500px;
+	color: #ca3434;
+}
+
+.admintopbar {
+	background-color: #ed9101;
+	width: 100%;
+	height: 56px;
+	top: 0;
+	position: absolute;
+}
+
+.admincontainer {
+	background-color: #b5b3b3;
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.adminblackbar {
+	background-color: #252424;
+	height: 100vh;
+	width: 294px;
+	left: 0;
+	top: 56px;
+	position: absolute;
+}
+
+.adminpp {
+	height: 56px;
+	width: 56px;
+	left: 22px;
+	top: 40px;
+	position: absolute;
+}
+
+.tulisanadmin {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+	position: absolute;
+	color: white;
+	top: 40px;
+	left: 100px;
+}
+
+.indikatoronline {
+	height: 15px;
+	width: 15px;
+	background-color: #00ff00;
+	border-radius: 50%;
+	position: absolute;
+	left: 100px;
+	top: 70px;
+}
+
+.indikatoroffline {
+	height: 15px;
+	width: 15px;
+	background-color: #ff1e00;
+	border-radius: 50%;
+	position: absolute;
+	left: 100px;
+	top: 70px;
+}
+
+.tulisanonlineoffline {
+	font-family: "nexalight", Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	font-size: 20pt;
+	position: absolute;
+	top: 65px;
+	left: 120px;
+}
+
+.tulisandalamblackbar {
+	font-family: "nexalight", Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	font-size: 22pt;
+}
+
+.tulisandashboard {
+	position: absolute;
+	left: 22px;
+	top: 130px;
+}
+
+.tulisanuser {
+	position: absolute;
+	left: 22px;
+	top: 190px;
+}
+
+.tulisanorder {
+	position: absolute;
+	left: 22px;
+	top: 250px;
+}
+
+.adminsearchbar {
+	position: absolute;
+	background-color: white;
+	height: 120px;
+	width: 1550px;
+	top: 75px;
+	left: 325px;
+	border-radius: 10px 10px 0 0;
+	border: solid 13px #ed9101;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+
+.tulisansortby {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+	position: absolute;
+	color: black;
+	top: 40px;
+	left: 50px;
+}
+
+.sorttabeladmin {
+	border: solid 3px black;
+	border-radius: 9px;
+	position: absolute;
+	left: 150px;
+	top: 35px;
+	width: 300px;
+	height: 35px;
+}
+
+.sorttabeladmin select {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	border-radius: 7px;
+	width: 294px;
+	height: 29px;
+	outline: none;
+	font-size: 16pt;
+	-webkit-appearance: none;
+	background-image: url(../image/triangle.png);
+	background-position:
+		calc(100% - 0px) calc(1em + -27px),
+		100% 0;
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+}
+
+.tulisansearch {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+	position: absolute;
+	color: black;
+	top: 40px;
+	left: 900px;
+}
+
+.boxsearch {
+	position: absolute;
+	top: 35px;
+	left: 1000px;
+	width: 371px;
+	height: 35px;
+}
+
+.adminsearchbar input[type="text"] {
+	background: none;
+	border: none;
+	outline: none;
+	position: absolute;
+	left: 1010px;
+	top: 40px;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	font-size: 15pt;
+	background-repeat: no-repeat;
+}
+
+.adminsearchbar input[type="submit"] {
+	background: url(../image/submitsearch.png);
+	position: absolute;
+	left: 1304px;
+	top: 38px;
+	width: 64px;
+	height: 29px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.adminsearchbar input[type="submit"]:hover {
+	background: url(../image/submitsearchhover.png);
+	cursor: pointer;
+}
+
+.tablebar {
+	position: absolute;
+	background-color: white;
+	height: 100%;
+	width: 1550px;
+	top: 50px;
+	left: 325px;
+	border-radius: 10px 10px 0 0;
+	border: solid 13px #ed9101;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	overflow-y: scroll;
+}
+
+.tabeladmin {
+	top: 20px;
+	position: absolute;
+	left: 40px;
+	width: 100%;
+}
+
+.namatiapkolom {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+	text-align: left;
+}
+
+.tabeladmin tr td {
+	font-family: "nexalight", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+	text-align: left;
+	height: 40px;
+	position: relative;
+	top: 10px;
+}
+
+.statuspencucian {
+	border: solid 2.5px black;
+	border-radius: 9px;
+	width: 200px;
+	height: 31px;
+}
+
+.statuspencucian select {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	border-radius: 7px;
+	width: 194px;
+	height: 25px;
+	outline: none;
+	font-size: 16pt;
+	-webkit-appearance: none;
+	background-image: url(../image/triangle.png);
+	background-position:
+		calc(100% - 0px) calc(1em + -22px),
+		100% 0;
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+}
+
+.logoprofile {
+	position: absolute;
+	top: 42px;
+	left: 200px;
+	width: 274px;
+	height: 153px;
+}
+
+.boxemailprofile {
+	position: absolute;
+	top: 214px;
+	left: 300px;
+}
+
+.emailprofile {
+	position: absolute;
+	top: 220px;
+	left: 380px;
+}
+
+.boxusernameprofile {
+	position: absolute;
+	top: 293px;
+	left: 300px;
+}
+
+.usernameprofile {
+	position: absolute;
+	top: 299px;
+	left: 380px;
+}
+
+.boxpassprofile {
+	position: absolute;
+	top: 609px;
+	left: 300px;
+}
+
+.passprofile {
+	position: absolute;
+	top: 615px;
+	left: 380px;
+}
+
+.boxpassprofile2 {
+	position: absolute;
+	top: 688px;
+	left: 300px;
+}
+
+.passprofile2 {
+	position: absolute;
+	top: 694px;
+	left: 380px;
+}
+
+.boxalamatprofile {
+	position: absolute;
+	top: 372px;
+	left: 300px;
+}
+
+.alamatprofile {
+	position: absolute;
+	top: 378px;
+	left: 380px;
+}
+
+.boxcamatprofile {
+	position: absolute;
+	top: 530px;
+	left: 300px;
+}
+
+.camatprofile {
+	position: absolute;
+	top: 536px;
+	left: 310px;
+}
+
+.boxsaveprofile {
+	position: absolute;
+	top: 770px;
+	left: 300px;
+}
+
+.boxeditprofile {
+	position: absolute;
+	top: 160px;
+	left: 480px;
+}
+
+.boxeditpass {
+	position: absolute;
+	top: 160px;
+	left: 650px;
+}
+
+.jumbotronprofile {
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../image/jumbotron.jpg);
+
+}
+
+.jumbotronprofile input[type="text"] {
+	border: none;
+	background: transparent;
+	font-size: 25pt;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	outline: none;
+	width: 425px;
+	height: 45px
+}
+
+.jumbotronprofile input[type="password"] {
+	border: none;
+	background: transparent;
+	font-size: 25pt;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	outline: none;
+	width: 425px;
+	height: 45px
+}
+
+.jumbotronprofile input[type="submit"] {
+	background-color: #33b3ca;
+	height: 46px;
+	width: 150px;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15pt;
+	border: none;
+	color: white;
+}
+
+.jumbotronprofile input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #3ddaf2;
+}
+
+.daerahprofile {
+	border: solid 3px black;
+	border-radius: 12px;
+	position: absolute;
+	left: 300px;
+	top: 451px;
+}
+
+.daerahprofile select {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	border-radius: 7px;
+	width: 512px;
+	height: 57px;
+	outline: none;
+	font-size: 25pt;
+	-webkit-appearance: none;
+	background-image: url(../image/triangle.png);
+	background-position:
+		calc(100% - -1px) calc(1em + -34px),
+		100% 0;
+	background-size: 60px 60px;
+	background-repeat: no-repeat;
+}
+
+.riwayatpencucian {
+	position: absolute;
+	background-color: white;
+	height: 550px;
+	width: 1000px;
+	top: 200px;
+	left: 850px;
+	border-radius: 10px 10px 0 0;
+	border: solid 13px #feb33e;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.tabelriwayat {
+	top: 20px;
+	position: absolute;
+	left: 20px;
+	width: 100%;
+}
+
+.namatiapkolomriwayat {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+	text-align: left;
+}
+
+.tabelriwayat tr td {
+	font-family: "nexalight", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20pt;
+	text-align: left;
+	height: 40px;
+	position: relative;
+	top: 10px;
+}
+
+.tulisanriwayatpencucian {
+	position: absolute;
+	left: 860px;
+	top: 160px;
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25pt;
+	color: white;
+}
+
+.statuspencucianprofile {
+	border: solid 2.5px black;
+	border-radius: 9px;
+	width: 200px;
+	height: 31px;
+}
+
+.statuspencucianprofile select {
+	font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	border-radius: 7px;
+	width: 194px;
+	height: 26px;
+	outline: none;
+	font-size: 16pt;
+	-webkit-appearance: none
+}
+.boxtotaluser{
+    position: absolute;
+    top: 90px;
+    left: 150px;
+}
+.boxtotalorder{
+    position: absolute;
+    top: 90px;
+    left: 850px;
+}
+.boxkecamatanadmin{
+   position: absolute;
+   left: 150px;
+   top: 550px;     
+}
+.boxkelurahanadmin{
+    position: absolute;
+    left: 850px;
+    top: 550px;
+}
+.angkauseradmin{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-family: "nexabold",Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80pt;
+    color: white;
+}
+.angkaorderadmin{
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    font-family: "nexabold",Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80pt;
+    color: white;
+}
+.angkakecamatanadmin{
+    position: absolute;
+    top: 660px;
+    left: 200px;
+    font-family: "nexabold",Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80pt;
+    color: white;
+}
+
+.angkakelurahanadmin{
+    position: absolute;
+    top: 660px;
+    left: 1000px;
+    font-family: "nexabold",Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80pt;
+    color: white;
+}
+@media(max-width:1366px) {
+
+	body,
+	html {
+		overflow: auto;
+		height: 100%;
+		width: 100%;
+		position: relative;
+	}
+
+	.content {
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.navbar {
+		width: 100%;
+		height: 65px;
+		background: #ed9101;
+		position: fixed;
+		top: 0;
+	}
+
+	.navbar button {
+		border: none;
+		outline: none;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 20px;
+		background: none;
+		color: white;
+	}
+
+	.logonavbar {
+		position: absolute;
+		left: 593px;
+		top: 10px;
+		width: 179px;
+		height: 101px;
+	}
+
+	.pelayanannavbar {
+		position: absolute;
+		left: 150px;
+		top: 20px;
+	}
+
+	.pesanannavbar {
+		position: absolute;
+		left: 350px;
+		top: 20px;
+	}
+
+	.aboutnavbar {
+		position: absolute;
+		left: 900px;
+		top: 20px;
+	}
+
+	.loginnavbar {
+		position: absolute;
+		left: 1100px;
+		top: 20px;
+	}
+
+	.usernavbar {
+		position: absolute;
+		left: 1100px;
+		top: 17px;
+		width: 35px;
+		height: 35px;
+	}
+
+	.dashboardlayout {
+		width: 100%;
+		margin: 0 auto;
+		height: 809px;
+		background-image: url(../image/jumbotrondashboard.jpg);
+		background-position: center;
+		background-size: cover;
+	}
+
+	.dashboardlayout p {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		color: white;
+		font-size: 40pt;
+		position: absolute;
+		left: 330px;
+		top: 370px;
+	}
+
+	.dashboardlayout input[type="submit"] {
+		background-color: #33b3ca;
+		height: 61px;
+		width: 200px;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 15pt;
+		border: none;
+		color: white;
+		position: absolute;
+		top: 450px;
+		left: 583px;
+	}
+
+	.dashboardlayout input[type="submit"]:hover {
+		cursor: pointer;
+		background-color: #3ddaf2;
+		border: none;
+		outline: none;
+	}
+
+	.dashboardlayout2 {
+		background-color: #feb33e;
+		width: 100%;
+		height: 700px;
+	}
+
+	.about {
+		position: absolute;
+		left: 183px;
+		top: 1000px;
+		width: 1000px;
+		height: 339px;
+	}
+
+	.layanan {
+		position: absolute;
+		width: 1000px;
+		height: 475px;
+		left: 183px;
+		top: 1630px;
+	}
+
+	.dashboardlayout3 {
+		background-color: white;
+		width: 100%;
+		height: 700px;
+	}
+
+	.dashboardlayout4 {
+		background-color: #252424;
+		width: 100%;
+		height: 700px;
+	}
+
+	.qnacekpesan {
+		position: absolute;
+		top: 2400px;
+		left: 100px;
+		width: 400px;
+		height: 203px;
+	}
+
+	.boxnopesan {
+		position: absolute;
+		top: 2400px;
+		left: 800px;
+		width: 450px;
+		height: 37px;
+	}
+
+	.dashboardlayout4 input[type="text"] {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+		font-size: 15pt;
+		background: none;
+		border: none;
+		outline: none;
+		width: 430px;
+		position: absolute;
+		top: 2405px;
+		left: 810px;
+	}
+
+	.dashboardlayout4 input[type="submit"] {
+		background-color: #ca3434;
+		height: 61px;
+		width: 200px;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 15pt;
+		border: none;
+		color: white;
+		position: absolute;
+		top: 2450px;
+		left: 800px;
+	}
+
+	.dashboardlayout4 input[type="submit"]:hover {
+		cursor: pointer;
+		background-color: #f84141;
+		border: none;
+		outline: none;
+	}
+
+	.dashboardlayout4 a {
+		background-color: #1c1b1b;
+		width: 100%;
+		height: 2px;
+		position: absolute;
+		top: 2800px;
+	}
+
+	.dashboardlayout4 p {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		color: #393939;
+		font-size: 15pt;
+		position: absolute;
+		top: 2820px;
+		left: 500px;
+	}
+
+	.gapunyaakun {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 10pt;
+		color: white;
+		position: absolute;
+		top: 590px;
+		left: 582px
+	}
+
+	.punyaakun {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 10pt;
+		color: white;
+		align: center;
+		position: absolute;
+		top: 640px;
+		left: 587px
+	}
+
+	.logologin {
+		position: absolute;
+		top: 30px;
+		left: 575px;
+		width: 216px;
+		height: 103px;
+	}
+
+	.userlogin {
+		position: absolute;
+		top: 160px;
+		left: 608px;
+		width: 150px;
+		height: 150px;
+	}
+
+	.boxusernamelogin {
+		position: absolute;
+		top: 340px;
+		left: 483px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.usernamelogin {
+		position: absolute;
+		top: 340px;
+		left: 542px;
+	}
+
+	.boxpasslogin {
+		position: absolute;
+		top: 410px;
+		left: 483px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.passlogin {
+		position: absolute;
+		top: 410px;
+		left: 542px;
+	}
+
+	.boxlogin {
+		position: absolute;
+		top: 480px;
+		left: 583px;
+	}
+
+	.jumbotron input[type="text"] {
+		border: none;
+		background: transparent;
+		font-size: 22pt;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		outline: none;
+		width: 330px;
+		height: 45px
+	}
+
+	.jumbotron input[type="password"] {
+		border: none;
+		background: transparent;
+		font-size: 22pt;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		outline: none;
+		width: 330px;
+		height: 45px
+	}
+
+	.jumbotron input[type="submit"] {
+		background-color: #33b3ca;
+		height: 61px;
+		width: 200px;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 23pt;
+		border: none;
+		color: white;
+	}
+
+	.jumbotron input[type="submit"]:hover {
+		cursor: pointer;
+		background-color: #3ddaf2;
+	}
+
+	.logodaftar {
+		position: absolute;
+		top: 20px;
+		left: 575px;
+		width: 216px;
+		height: 103px;
+	}
+
+	.boxemaildaftar {
+		position: absolute;
+		top: 90px;
+		left: 483px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.emaildaftar {
+		position: absolute;
+		top: 90px;
+		left: 542px;
+	}
+
+	.boxusernamedaftar {
+		position: absolute;
+		top: 160px;
+		left: 483px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.usernamedaftar {
+		position: absolute;
+		top: 160px;
+		left: 542px;
+	}
+
+	.boxpassdaftar {
+		position: absolute;
+		top: 235px;
+		left: 483px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.passdaftar {
+		position: absolute;
+		top: 235px;
+		left: 542px;
+	}
+
+	.boxpassdaftar2 {
+		position: absolute;
+		top: 310px;
+		left: 483px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.passdaftar2 {
+		position: absolute;
+		top: 310px;
+		left: 542px;
+	}
+
+	.boxalamatdaftar {
+		position: absolute;
+		top: 380px;
+		left: 483px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.alamatdaftar {
+		position: absolute;
+		top: 380px;
+		left: 542px;
+	}
+
+	.boxcamatdaftar {
+		position: absolute;
+		top: 500px;
+		left: 483px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.camatdaftar {
+		position: absolute;
+		top: 510px;
+		left: 490px;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+	.boxdaftar {
+		position: absolute;
+		top: 560px;
+		left: 583px;
+	}
+
+	.daerah {
+		border: solid 2px black;
+		border-radius: 9px;
+		position: absolute;
+		left: 483px;
+		top: 440px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.daerah select {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		border-radius: 7px;
+		width: 395px;
+		height: 42px;
+		outline: none;
+		font-size: 22pt;
+		position: absolute;
+		left: 0px;
+
+		-webkit-appearance: none;
+		background-image: url(../image/triangle.png);
+		background-position:
+			calc(100% - -1px) calc(1em + -30px),
+			100% 0;
+		background-size: 45px 45px;
+		background-repeat: no-repeat;
+	}
+
+	.pesananlayout {
+		background-color: #252424;
+		width: 100%;
+		height: 100%;
+	}
+
+	.pesananlayout p {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		color: white;
+		font-size: 25pt;
+		position: absolute;
+		top: 150px;
+		left: 550px;
+	}
+
+	.carapesan {
+		position: absolute;
+		top: 200px;
+		left: 200px;
+		width: 900px;
+		height: 386px;
+	}
+
+	.jumlahpesanan {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		color: white;
+		font-size: 20pt;
+		position: absolute;
+		top: 100vh;
+		left: 200px;
+	}
+
+	.boxjumlahsepatu {
+		position: absolute;
+		top: 105vh;
+		left: 195px;
+		width: 350px;
+		height: 34px;
+	}
+
+	.pesananlayout2 {
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+
+	.pesananlayout2 input[type="number"] {
+		background: none;
+		border: none;
+		outline: none;
+		position: absolute;
+		left: 205px;
+		top: 105.5vh;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+		font-size: 16pt;
+	}
+
+	.pesananlayout2 input[type="submit"] {
+		background: url(../image/submitjumlah.png);
+		position: absolute;
+		background-size: 90px 30px;
+		width: 90px;
+		height: 30px;
+		left: 453px;
+		top: 105.3vh;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+
+	.pesananlayout2 input[type="submit"]:hover {
+		background: url(../image/submitjumlahhover.png);
+		cursor: pointer;
+		background-size: 90px 30px;
+		width: 90px;
+		height: 30px;
+	}
+
+	.jenispelayanan {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		color: white;
+		font-size: 18pt;
+		position: absolute;
+		top: 113vh;
+		left: 200px;
+	}
+
+	.layanansepatu {
+		border: solid 2px black;
+		border-radius: 9px;
+		position: absolute;
+		left: 500px;
+		top: 112vh;
+		width: 300px;
+		height: 35px;
+	}
+
+	.layanansepatu select {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		border-radius: 7px;
+		width: 295px;
+		height: 30px;
+		outline: none;
+		font-size: 15pt;
+		-webkit-appearance: none;
+		background-image: url(../image/triangle.png);
+		background-position:
+			calc(100% - 0px) calc(1em + -20px),
+			100% 0;
+		background-size: 30px 30px;
+		background-repeat: no-repeat;
+	}
+
+	.hargaperpelayanan {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 20pt;
+		position: absolute;
+		top: 0;
+		left: 320px;
+		width: 500px;
+		color: white;
+		height: 100%;
+	}
+
+	.boxpesan {
+		background-color: #33b3ca;
+		height: 52px;
+		width: 170px;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 17pt;
+		border: none;
+		color: white;
+		position: absolute;
+		bottom: -80%;
+		left: 1100px;
+	}
+
+	.boxpesan:hover {
+		cursor: pointer;
+		background-color: #3ddaf2;
+	}
+
+	.footer {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 50px;
+		bottom: -100%;
+		background-color: #252424;
+		color: #393939;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 10pt;
+	}
+
+	.footer a {
+		background-color: #1c1b1b;
+		width: 100%;
+		height: 2px;
+		position: absolute;
+		bottom: 70px;
+	}
+
+	.footer p {
+		text-align: center;
+
+	}
+
+	.cekpesananlayout {
+		width: 100%;
+		min-height: 100%;
+		background-color: #252424;
+	}
+
+	.bon {
+		position: absolute;
+		left: 270px;
+		top: 150px;
+		width: 850px;
+		min-height: 100%;
+	}
+
+	.totalbon {
+		position: absolute;
+		left: 275px;
+		top: 200px;
+		height: 100%;
+	}
+
+	.totalbon p {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+	}
+
+	.pesananmu {
+		font-size: 30pt;
+		position: absolute;
+		left: 280px;
+	}
+
+	.garisbon1 {
+		position: absolute;
+		width: 810px;
+		background-color: black;
+		height: 4px;
+		top: 50px;
+		left: 6px;
+		border-radius: 10px;
+	}
+
+	.banyaknyajenislayanan {
+		font-size: 20pt;
+		position: absolute;
+		left: 30px;
+		top: 70px;
+	}
+
+	.jenislayanan {
+		font-size: 20pt;
+		position: absolute;
+		left: 60px;
+		top: 70px;
+		width: 200px;
+	}
+
+	.hargalayanan {
+		font-size: 20pt;
+		position: absolute;
+		left: 630px;
+		top: 70px;
+		width: 200px;
+	}
+
+	.garisbon2 {
+		position: absolute;
+		width: 810px;
+		background-color: black;
+		height: 4px;
+		top: 110px;
+		left: 6px;
+		border-radius: 10px;
+	}
+
+	.ongkir {
+		font-size: 20pt;
+		position: absolute;
+		left: 200px;
+		top: 130px;
+		width: 500px;
+	}
+
+	.hargaongkir {
+		font-size: 20pt;
+		position: absolute;
+		left: 630px;
+		top: 130px;
+		width: 200px;
+	}
+
+	.total {
+		font-size: 20pt;
+		position: absolute;
+		left: 500px;
+		top: 180px;
+		width: 200px;
+	}
+
+	.hargatotal {
+		font-size: 20pt;
+		position: absolute;
+		left: 630px;
+		top: 180px;
+		width: 200px;
+	}
+
+	.nopesan {
+		font-size: 20pt;
+		position: absolute;
+		left: 30px;
+		top: 230px;
+		width: 400px;
+	}
+
+	.noinvoice {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 20pt;
+		position: absolute;
+		left: 30px;
+		top: 260px;
+		width: 200px;
+		color: #ca3434;
+	}
+
+	.statuspesan {
+		font-size: 20pt;
+		position: absolute;
+		left: 30px;
+		top: 290px;
+		width: 400px;
+	}
+
+	.status {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 20pt;
+		position: absolute;
+		left: 30px;
+		top: 320px;
+		width: 500px;
+		color: #ca3434;
+	}
+
+	.admintopbar {
+		background-color: #ed9101;
+		width: 100%;
+		height: 41px;
+		top: 0;
+		position: absolute;
+	}
+
+	.admincontainer {
+		background-color: #b5b3b3;
+		width: 100%;
+		height: 100vh;
+		background-position: center;
+		background-size: cover;
+		overflow: hidden;
+	}
+
+	.adminblackbar {
+		background-color: #252424;
+		height: 100vh;
+		width: 209px;
+		left: 0;
+		top: 41px;
+		position: absolute;
+	}
+
+	.adminpp {
+		height: 41px;
+		width: 41px;
+		left: 22px;
+		top: 30px;
+		position: absolute;
+	}
+
+	.tulisanadmin {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 15pt;
+		position: absolute;
+		color: white;
+		top: 30px;
+		left: 70px;
+	}
+
+	.indikatoronline {
+		height: 10px;
+		width: 10px;
+		background-color: #00ff00;
+		border-radius: 50%;
+		position: absolute;
+		left: 70px;
+		top: 55px;
+	}
+
+	.indikatoroffline {
+		height: 10px;
+		width: 10px;
+		background-color: #ff1e00;
+		border-radius: 50%;
+		position: absolute;
+		left: 70px;
+		top: 55px;
+	}
+
+	.tulisanonlineoffline {
+		font-family: "nexalight", Verdana, Geneva, Tahoma, sans-serif;
+		color: white;
+		font-size: 15pt;
+		position: absolute;
+		top: 50px;
+		left: 90px;
+	}
+
+	.tulisandalamblackbar {
+		font-family: "nexalight", Verdana, Geneva, Tahoma, sans-serif;
+		color: white;
+		font-size: 22pt;
+	}
+
+	.tulisandashboard {
+		position: absolute;
+		left: 22px;
+		top: 130px;
+	}
+
+	.tulisanuser {
+		position: absolute;
+		left: 22px;
+		top: 190px;
+	}
+
+	.tulisanorder {
+		position: absolute;
+		left: 22px;
+		top: 250px;
+	}
+
+	.adminsearchbar {
+		position: absolute;
+		background-color: white;
+		height: 100px;
+		width: 1104px;
+		top: 60px;
+		left: 240px;
+		border-radius: 10px 10px 0 0;
+		border: solid 13px #ed9101;
+		border-bottom: none;
+		border-left: none;
+		border-right: none;
+	}
+
+	.tulisansortby {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 15pt;
+		position: absolute;
+		color: black;
+		top: 30px;
+		left: 35px;
+	}
+
+	.sorttabeladmin {
+		border: solid 3px black;
+		border-radius: 7px;
+		position: absolute;
+		left: 110px;
+		top: 30px;
+		width: 200px;
+		height: 23px;
+	}
+
+	.sorttabeladmin select {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		border-radius: 4px;
+		width: 194px;
+		height: 17px;
+		outline: none;
+		font-size: 10pt;
+		-webkit-appearance: none;
+		background-image: url(../image/triangle.png);
+		background-position:
+			calc(100% - 0px) calc(1em + -18px),
+			100% 0;
+		background-size: 25px 25px;
+		background-repeat: no-repeat;
+	}
+
+	.tulisansearch {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 15pt;
+		position: absolute;
+		color: black;
+		top: 30px;
+		left: 630px;
+	}
+
+	.boxsearch {
+		position: absolute;
+		top: 25px;
+		left: 700px;
+		width: 300px;
+		height: 25px;
+	}
+
+	.adminsearchbar input[type="text"] {
+		background: none;
+		border: none;
+		outline: none;
+		position: absolute;
+		left: 710px;
+		top: 27px;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+		font-size: 11pt;
+		background-repeat: no-repeat;
+	}
+
+	.adminsearchbar input[type="submit"] {
+		background: url(../image/submitsearch.png);
+		position: absolute;
+		left: 952px;
+		top: 28px;
+		background-size: 45px 20px;
+		width: 45px;
+		height: 20px;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+
+	.adminsearchbar input[type="submit"]:hover {
+		background: url(../image/submitsearchhover.png);
+		cursor: pointer;
+		background-size: 45px 20px;
+		width: 45px;
+		height: 20px;
+	}
+
+	.tablebar {
+		position: absolute;
+		background-color: white;
+		height: 100%;
+		width: 1104px;
+		top: 50px;
+		left: 240px;
+		border-radius: 10px 10px 0 0;
+		border: solid 13px #ed9101;
+		border-bottom: none;
+		border-left: none;
+		border-right: none;
+		overflow-y: scroll;
+	}
+
+	.tabeladmin {
+		top: 20px;
+		position: absolute;
+		left: 30px;
+		width: 100%;
+	}
+
+	.namatiapkolom {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 20pt;
+		text-align: left;
+	}
+
+	.tabeladmin tr td {
+		font-family: "nexalight", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 20pt;
+		text-align: left;
+		height: 40px;
+		position: relative;
+		top: 10px;
+	}
+
+	.statuspencucian {
+		border: solid 2.5px black;
+		border-radius: 9px;
+		width: 200px;
+		height: 31px;
+	}
+
+	.statuspencucian select {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		border-radius: 7px;
+		width: 194px;
+		height: 25px;
+		outline: none;
+		font-size: 16pt;
+		-webkit-appearance: none;
+		background-image: url(../image/triangle.png);
+		background-position:
+			calc(100% - 0px) calc(1em + -22px),
+			100% 0;
+		background-size: 25px 25px;
+		background-repeat: no-repeat;
+	}
+
+	.logoprofile {
+		position: absolute;
+		top: 42px;
+		left: 100px;
+		width: 216px;
+		height: 103px;
+	}
+
+	.boxemailprofile {
+		position: absolute;
+		top: 170px;
+		left: 150px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.emailprofile {
+		position: absolute;
+		top: 170px;
+		left: 210px;
+	}
+
+	.boxusernameprofile {
+		position: absolute;
+		top: 230px;
+		left: 150px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.usernameprofile {
+		position: absolute;
+		top: 230px;
+		left: 210px;
+	}
+
+	.boxpassprofile {
+		position: absolute;
+		top: 470px;
+		left: 150px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.passprofile {
+		position: absolute;
+		top: 470px;
+		left: 210px;
+	}
+
+	.boxpassprofile2 {
+		position: absolute;
+		top: 530px;
+		left: 150px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.passprofile2 {
+		position: absolute;
+		top: 530px;
+		left: 210px;
+	}
+
+	.boxalamatprofile {
+		position: absolute;
+		top: 290px;
+		left: 150px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.alamatprofile {
+		position: absolute;
+		top: 290px;
+		left: 210px;
+	}
+
+	.boxcamatprofile {
+		position: absolute;
+		top: 410px;
+		left: 150px;
+		width: 400px;
+		height: 46px;
+	}
+
+	.camatprofile {
+		position: absolute;
+		top: 410px;
+		left: 160px;
+	}
+
+	.boxsaveprofile {
+		position: absolute;
+		top: 590px;
+		left: 150px;
+	}
+
+	.boxeditprofile {
+		position: absolute;
+		top: 120px;
+		left: 300px;
+	}
+
+	.boxeditpass {
+		position: absolute;
+		top: 120px;
+		left: 430px;
+	}
+
+	.jumbotronprofile {
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		background-position: center;
+		background-size: cover;
+		background-image: url(../image/jumbotron.jpg);
+
+	}
+
+	.jumbotronprofile input[type="text"] {
+		border: none;
+		background: transparent;
+		font-size: 22pt;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		outline: none;
+		width: 330px;
+		height: 45px
+	}
+
+	.jumbotronprofile input[type="password"] {
+		border: none;
+		background: transparent;
+		font-size: 22pt;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		outline: none;
+		width: 330px;
+		height: 45px
+	}
+
+	.jumbotronprofile input[type="submit"] {
+		background-color: #33b3ca;
+		height: 42px;
+		width: 120px;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 12pt;
+		border: none;
+		color: white;
+	}
+
+	.jumbotronprofile input[type="submit"]:hover {
+		cursor: pointer;
+		background-color: #3ddaf2;
+	}
+
+	.daerahprofile {
+		border: solid 3px black;
+		border-radius: 12px;
+		position: absolute;
+		left: 150px;
+		width: 400px;
+		height: 45px;
+		top: 350px;
+	}
+
+	.daerahprofile select {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		border-radius: 7px;
+		width: 393px;
+		height: 39px;
+		outline: none;
+		font-size: 22pt;
+		-webkit-appearance: none;
+		background-image: url(../image/triangle.png);
+		background-position:
+			calc(100% - -1px) calc(1em + -30px),
+			100% 0;
+		background-size: 42px 42px;
+		background-repeat: no-repeat;
+	}
+
+	.riwayatpencucian {
+		position: absolute;
+		background-color: white;
+		height: 400px;
+		width: 650px;
+		top: 170px;
+		left: 600px;
+		border-radius: 10px 10px 0 0;
+		border: solid 13px #feb33e;
+		border-bottom: none;
+		border-left: none;
+		border-right: none;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+
+	.tabelriwayat {
+		top: 20px;
+		position: absolute;
+		left: 20px;
+		width: 100%;
+	}
+
+	.namatiapkolomriwayat {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 13pt;
+		text-align: left;
+	}
+
+	.tabelriwayat tr td {
+		font-family: "nexalight", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 13pt;
+		text-align: left;
+		height: 40px;
+		position: relative;
+		top: 10px;
+	}
+
+	.tulisanriwayatpencucian {
+		position: absolute;
+		left: 600px;
+		top: 130px;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 22pt;
+		color: white;
+	}
+
+	.statuspencucianprofile {
+		border: solid 2.5px black;
+		border-radius: 9px;
+		width: 170px;
+		height: 28px;
+	}
+
+	.statuspencucianprofile select {
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		border-radius: 7px;
+		width: 165px;
+		height: 22px;
+		outline: none;
+		font-size: 12pt;
+		-webkit-appearance: none
+	}
+
+	.boxtotaluser {
+		position: absolute;
+		top: 40px;
+		left: 50px;
+		width: 400px;
+		height: 250px;
+	}
+
+	.boxtotalorder {
+		position: absolute;
+		top: 40px;
+		left: 550px;
+		width: 400px;
+		height: 250px;
+	}
+
+	.boxkecamatanadmin {
+		position: absolute;
+		left: 50px;
+		top: 300px;
+		width: 400px;
+		height: 250px;
+	}
+
+	.boxkelurahanadmin {
+		position: absolute;
+		left: 550px;
+		top: 300px;
+		width: 400px;
+		height: 250px;
+	}
+
+	.angkauseradmin {
+		position: absolute;
+		top: 120px;
+		left: 140px;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 50pt;
+		color: white;
+	}
+
+	.angkaorderadmin {
+		position: absolute;
+		top: 120px;
+		left: 640px;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 50pt;
+		color: white;
+	}
+
+	.angkakecamatanadmin {
+		position: absolute;
+		top: 390px;
+		left: 140px;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 50pt;
+		color: white;
+	}
+
+	.angkakelurahanadmin {
+		position: absolute;
+		top: 390px;
+		left: 640px;
+		font-family: "nexabold", Verdana, Geneva, Tahoma, sans-serif;
+		font-size: 50pt;
+		color: white;
+	}
+}
